@@ -1,0 +1,8 @@
+.column.project.description {
+	font-size: 5rem;
+}
+
+.section.title {
+	display: flex;
+	justify-content: center;
+}
