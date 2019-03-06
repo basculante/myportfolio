@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 
-.ui.segment.parallax.about {
-	background-image: url("../backgrounds/about.jpg");
-	min-height: 500px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-family: 'Pragati Narrow', sans-serif;
-	font-size: 5rem;
+.about {
+	font-size: 2rem;
+	font-family: 'Maven Pro', sans-serif;
 }

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+.ui.parallax.about {
+	background-image: url("../backgrounds/about.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 4rem;
+}

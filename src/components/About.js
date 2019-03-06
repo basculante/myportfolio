@@ -1,36 +1,64 @@
 import React from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import { Grid, Form, Transition } from 'semantic-ui-react';
 import './About.css';
 
-const About = () => {
-	AOS.init()
-	return (
-		<div className="ui segment parallax about">
-			<div className="ui padded grid centered">
-				<div className="column five wide">
-					<p>My name is Victor [Wan-Teak] Joh. I am a front-end web developer.</p>
-				</div>
-				<div className="column three wide"></div>
-				<div className="column five wide">
-					<img 
-						className="ui medium circular image" 
-						src="https://www.biography.com/.image/t_share/MTE4MDAzNDEwOTU0OTEzMjk0/roberto-duran-v-ken-buchanan.jpg"
-						alt="myPicture"
-						data-aos="fade-up"
-					    data-aos-offset="200"
-					    data-aos-delay="50"
-					    data-aos-duration="1000"
-					    data-aos-easing="ease-in-out"
-					    data-aos-mirror="true"
-					    data-aos-once="false"
-					    data-aos-anchor-placement="top"
-						/>
-				</div>
-				<div className="ui vertical divider"></div>
+class About extends React.Component {
+	state={visible: false}
+
+	handleVisibility = () => this.setState({ visible: !this.state.visible })
+	render() {
+		const { visible } = this.state
+
+		return (
+			<div>
+				<h1 className="section title">About Me</h1>
+				<Grid className="about" centered>
+					<Grid.Row>
+						<Grid.Column width={6}>
+							<p>Where did you go to school?</p>
+						</Grid.Column>
+						<Grid.Column>
+						</Grid.Column>
+						<Grid.Column>
+							<i className="large plus icon" onClick={this.handleVisibility}/>
+						</Grid.Column>
+					</Grid.Row>
+					<Grid.Row>
+						<Grid.Column width={6}>
+							<Transition.Group animation={'fade up'}>
+								{visible && <div>NYU!</div>}
+							</Transition.Group>
+						</Grid.Column>
+						<Grid.Column>
+						</Grid.Column>
+						<Grid.Column>
+						</Grid.Column>
+					</Grid.Row>
+					<Grid.Row>
+						<Grid.Column width={6}>
+							<p>What are your hobbies?</p>
+						</Grid.Column>
+						<Grid.Column>
+						</Grid.Column>
+						<Grid.Column>
+							<i className="large plus icon" onClick={this.handleVisibility}/>
+						</Grid.Column>
+					</Grid.Row>
+					<Grid.Row>
+						<Grid.Column width={6}>
+							<Transition.Group animation={'fade up'}>
+								{visible && <div>Boxing, reading, Go game, movies.</div>}
+							</Transition.Group>
+						</Grid.Column>
+						<Grid.Column>
+						</Grid.Column>
+						<Grid.Column>
+						</Grid.Column>
+					</Grid.Row>
+				</Grid>
 			</div>
-		</div>
-	);
+		);
+	}
 }
 
 export default About;

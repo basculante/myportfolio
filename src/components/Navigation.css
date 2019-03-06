@@ -7,15 +7,52 @@
 	left: 0;
 	overflow-x: hidden;
 	padding: 40px;
+	padding-top: 10px;
+}
+
+.icon {
+	cursor: pointer;
 }
 
 .icon_description {
 	visibility: hidden;
 	transition: opacity .2s, visibility .1s;
-	color: #4974c6;
+	color: #51A4F3;
 }
 
 .icon:hover .icon_description {
 	visibility: visible;
 	opacity: 1;
+}
+
+.large.home.icon {
+	 color: #51A4F3;
+}
+
+.large.user.icon {
+	color: #51A4F3;
+}
+
+.large.folder.icon {
+	color: #51A4F3;
+}
+
+.large.keyboard.icon {
+	color: #51A4F3;
+}
+
+.large.file.icon {
+	color: #51A4F3;
+}
+
+.large.envelope.icon {
+	color: #51A4F3;
+}
+
+.large.github.icon {
+	color: #51A4F3;
+}
+
+.large.linkedin.icon {
+	color: #51A4F3;
 }
