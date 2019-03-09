@@ -34,19 +34,19 @@ const Skills = () => {
 				<div className="row">
 					<div className="one wide column">
 						<Popup 
-							trigger={<img height="100px" src={html5} alt="html-5"/>} 
+							trigger={<img height="100vh" src={html5} alt="html-5"/>} 
 							content="HTML-5"
 						/>	
 						</div>
 					<div className="one wide column">
 						<Popup 
-							trigger={<img height="100px" src={css} alt="css-3"/>} 
+							trigger={<img height="100vh" src={css} alt="css-3"/>} 
 							content="CSS-3"
 						/>	
 					</div>
 					<div className="one wide column">
 						<Popup 
-							trigger={<img height="100px" src={javascript} alt="js"/>} 
+							trigger={<img height="100vh" src={javascript} alt="js"/>} 
 							content="JavaScript"
 						/>	
 					</div>
@@ -54,19 +54,19 @@ const Skills = () => {
 				<div className="row">
 					<div className="one wide column">
 						<Popup 
-							trigger={<img height="100px" src={react} alt="react"/>} 
+							trigger={<img height="100vh" src={react} alt="react"/>} 
 							content="React"
 						/>		
 					</div>
 					<div className="one wide column">
 						<Popup 
-							trigger={<img height="100px" src={redux} alt="redux"/>} 
+							trigger={<img height="100vh" src={redux} alt="redux"/>} 
 							content="Redux"
 						/>			
 					</div>
 					<div className="one wide column">
 						<Popup 
-							trigger={<img height="100px" src={reactRouter} alt="react-router"/>} 
+							trigger={<img height="100vh" src={reactRouter} alt="react-router"/>} 
 							content="React-Router"
 						/>					
 					</div>
@@ -74,19 +74,19 @@ const Skills = () => {
 				<div className="row">
 					<div className="one wide column">
 						<Popup 
-							trigger={<img height="100px" src={semanticUI} alt="semantic-ui"/>} 
+							trigger={<img height="100vh" src={semanticUI} alt="semantic-ui"/>} 
 							content="Semantic-UI"
 						/>				
 					</div>
 					<div className="one wide column">
 						<Popup 
-							trigger={<img height="100px" src={bootstrap} alt="bootstrap"/>} 
+							trigger={<img height="100vh" src={bootstrap} alt="bootstrap"/>} 
 							content="Bootstrap"
 						/>		
 					</div>
 					<div className="one wide column">
 						<Popup 
-							trigger={<img height="100px" src={nodejs} alt="nodejs"/>} 
+							trigger={<img height="100vh" src={nodejs} alt="nodejs"/>} 
 							content="NodeJS"
 						/>	
 					</div>
@@ -94,13 +94,13 @@ const Skills = () => {
 				<div className="row">
 					<div className="one wide column">
 						<Popup 
-							trigger={<img height="100px" src={postgresql} alt="postgresql"/>} 
+							trigger={<img height="100vh" src={postgresql} alt="postgresql"/>} 
 							content="PostgreSQL"
 						/>	
 					</div>
 					<div className="one wide column">
 						<Popup 
-							trigger={<img height="100px" src={mongodb} alt="mongodb"/>} 
+							trigger={<img height="100vh" src={mongodb} alt="mongodb"/>} 
 							content="MongoDB"
 						/>	
 					</div>

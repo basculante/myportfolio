@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+
 import Navigation from './Navigation';
 import Intro from './Intro';
 import About from './About';
@@ -10,13 +12,17 @@ import Contact from './Contact';
 const App = () => {
 	return (
 		<div>
-			<Navigation />
-			<Intro id="intro" />
-			<About id="abouts" />
-			<Projects id="projects" />
-			<Skills id="skills" />
-			<Resume id="resume" />
-			<Contact id="contact" />
+		<BrowserRouter>
+			<div>
+				<Navigation />
+				<Route path="/" component={Intro} exact/>
+				<Route path="/about" component={About} exact/>
+				<Route path="/projects" component={Projects} exact/>
+				<Route path="/skills" component={Skills} exact/>
+				<Route path="/contact" component={Contact} exact/>
+				<Route path="/resume" component={Resume} exact/>
+			</div>		
+		</BrowserRouter>
 		</div>
 	);
 }

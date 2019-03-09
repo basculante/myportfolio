@@ -13,7 +13,7 @@ class MeditationTimer extends React.Component {
 		return (
 			<div>
 				<Grid centered className="project_grids">
-					<Grid.Row style={{margin: '150px'}}>
+					<Grid.Row style={{margin: '4vh'}}>
 						<Grid.Column 
 							width={5} 
 							data-aos="fade-right"

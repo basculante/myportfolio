@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 
 .project_grids {
-	font-size: 5rem;
+	font-size: 3vh;
 	font-family: 'Maven Pro', sans-serif;
 
 }
@@ -9,7 +9,7 @@
 .section.title {
 	display: flex;
 	justify-content: center;
-	padding: 50px;
+	padding: 10vw;
 	font-family: 'Maven Pro', sans-serif;
-	font-size: 5rem;
+	font-size: 4vh;
 }
