@@ -1,21 +1,14 @@
 import React from 'react';
-import { Grid, Image, Dimmer, Header, Segment } from 'semantic-ui-react';
+import { Grid, Image } from 'semantic-ui-react';
 
 
 class MeditationTimer extends React.Component {
-	state={}
-
-	handleShow = () => this.setState({ active:true })
-	handleHide = () => this.setState({ active: false })
-
 	render(){
-		const { active } = this.state
 		return (
-			<div>
-				<Grid centered className="project_grids">
-					<Grid.Row style={{margin: '4vh'}}>
+			<div className="project-2">
+				<Grid stackable centered className="project_grids" columns={2}>
+					<Grid.Row className="project_row">
 						<Grid.Column 
-							width={5} 
 							data-aos="fade-right"
 						    data-aos-offset="200"
 						    data-aos-delay="50"
@@ -25,12 +18,9 @@ class MeditationTimer extends React.Component {
 						    data-aos-once="true"
 						    data-aos-anchor-placement="top"
 							>
-							<p>This is my project.</p>
-						</Grid.Column>
-						<Grid.Column width={2}>
+							<Image src={require("../../projectimages/meditation_timer.png")} className="project-image" size="huge"/>
 						</Grid.Column>
 						<Grid.Column 
-							width={9}
 							data-aos="fade-left"
 						    data-aos-offset="200"
 						    data-aos-delay="50"
@@ -39,13 +29,11 @@ class MeditationTimer extends React.Component {
 						    data-aos-mirror="true"
 						    data-aos-once="true"
 						    data-aos-anchor-placement="top"
+						    className="project-info"
+						    textAlign='center'
 							>
-							<Dimmer.Dimmable as={Segment} blurring dimmed={active}>
-								<Image src={require("../../projectimages/meditation_timer.png")} onMouseEnter={this.handleShow} />
-								<Dimmer active={active} onMouseLeave={this.handleHide}>
-									<p>A simple meditation timer for your daily meditation sessions.</p>
-								</Dimmer>
-							</Dimmer.Dimmable>
+							<h1>Meditation Timer</h1>
+							<p>This is my project.</p>
 						</Grid.Column>
 					</Grid.Row>
 				</Grid>

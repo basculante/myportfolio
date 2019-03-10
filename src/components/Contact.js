@@ -1,15 +1,16 @@
 import React from 'react';
 import { Form, Grid, Button } from 'semantic-ui-react';
+import './Contact.css';
 
 class Contact extends React.Component {
 	render() {
 		return (
-		<div>
+		<div className="contact">
 			<h1 className="section title">Contact Me</h1>
 			<Form action="https://formspree.io/victorbasculante@gmail.com" method="POST">
 			<Grid centered>
 				<Grid.Row>
-					<Grid.Column width={6}>
+					<Grid.Column>
 							<Form.Group widths='equal'>
 									<Form.Input label='Name' placeholder='Name' />
 									<Form.Input label='Email' placeholder='Email' />
@@ -17,7 +18,7 @@ class Contact extends React.Component {
 					</Grid.Column>
 				</Grid.Row>
 				<Grid.Row>
-					<Grid.Column width={6}>
+					<Grid.Column>
 							<Form.TextArea label='Message' placeholder='Message' />
 					</Grid.Column>
 				</Grid.Row>

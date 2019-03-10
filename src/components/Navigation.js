@@ -1,57 +1,54 @@
 import React from 'react';
-import { Grid } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
-import { slide as Menu } from 'react-burger-menu'
 import './Navigation.css';
 
 class Navigation extends React.Component {
 	render() {
 		return(
-			<ul class="block-menu">
+			<ul className="block-menu">
 				<li>
-					<Link to="/" className="three-d">
+					<a href="null" className="three-d">
 					Home
-						<span aria-hidden="true" class="three-d-box">
-							<span class="front">Home</span>
-							<span class="back">Home</span>
+						<span aria-hidden="true" className="three-d-box">
+							<span className="front">Home</span>
+							<span className="back">Home</span>
 						</span>
-					</Link>	
+					</a>	
 				</li>
 				<li>
-					<Link to="/about" className="three-d">
+					<a href="null" className="three-d">
 					About
-						<span aria-hidden="true" class="three-d-box">
-							<span class="front">About</span>
-							<span class="back">About</span>
+						<span aria-hidden="true" className="three-d-box">
+							<span className="front">About</span>
+							<span className="back">About</span>
 						</span>
-					</Link>	
+					</a>	
 				</li>
 				<li>
-					<Link to="/projects" className="three-d">
+					<a href="null" className="three-d">
 					Projects
-						<span aria-hidden="true" class="three-d-box">
-							<span class="front">Projects</span>
-							<span class="back">Projects</span>
+						<span aria-hidden="true" className="three-d-box">
+							<span className="front">Projects</span>
+							<span className="back">Projects</span>
 						</span>
-					</Link>	
+					</a>	
 				</li>
 				<li>
-					<Link to="/skills" className="three-d">
+					<a href="null" className="three-d">
 					Skills
-						<span aria-hidden="true" class="three-d-box">
-							<span class="front">Skills</span>
-							<span class="back">Skills</span>
+						<span aria-hidden="true" className="three-d-box">
+							<span className="front">Skills</span>
+							<span className="back">Skills</span>
 						</span>
-					</Link>	
+					</a>	
 				</li>
 				<li>
-					<Link to="/contact" className="three-d">
+					<a href="null" className="three-d">
 					Contact
-						<span aria-hidden="true" class="three-d-box">
-							<span class="front">Contact</span>
-							<span class="back">Contact</span>
+						<span aria-hidden="true" className="three-d-box">
+							<span className="front">Contact</span>
+							<span className="back">Contact</span>
 						</span>
-					</Link>	
+					</a>	
 				</li>
 			</ul>
 		);
@@ -70,7 +67,7 @@ export default Navigation;
 // 				</div>
 // 				<div className="row">
 // 					<div className="icon">
-// 						<Link
+// 						<span
 // 							activeClass="active"
 // 							to="abouts"
 // 							spy={true}

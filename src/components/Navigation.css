@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One');
 @import url(https://fonts.googleapis.com/css?family=Lusitana);
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 
 /* basic menu styles */
 .block-menu {
 	display: block;
+	z-index: 1000;
+	background: #fcfcf4;
 	position: fixed;
+	margin: 0;
+	padding: 3vh;
+	width: 100%;
 }
 
 .block-menu li {
@@ -12,15 +18,15 @@
 }
 
 .block-menu li a {
-	color: #fff;
+	color: #fcfcf4;
 	display: block;
 	text-decoration: none;
-	font-family: 'Francois One', sans-serif;
+	font-family: 'Lusitana', serif;
 	font-smoothing: antialiased;
 	text-transform: uppercase;
 	overflow: visible;
 	line-height: 20px;
-	font-size: 24px;
+	font-size: 3vh;
 	padding: 15px 10px;
 }
 
@@ -60,7 +66,7 @@
 
 .back {
 	transform: rotatex(-90deg) translatez(25px);
-	color: #ffe7c4;
+	color: #fcfcf4;
 }
 
 .front, .back {

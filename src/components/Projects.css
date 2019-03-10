@@ -1,15 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url(https://fonts.googleapis.com/css?family=Lusitana);
+
+.projects {
+	background-color: #fcfcf4;
+	font-family: 'Lusitana', serif;
+}
 
 .project_grids {
 	font-size: 3vh;
-	font-family: 'Maven Pro', sans-serif;
-
 }
 
-.section.title {
-	display: flex;
-	justify-content: center;
-	padding: 10vw;
-	font-family: 'Maven Pro', sans-serif;
-	font-size: 4vh;
+.project_row {
+	margin: 5vh;
+}
+
+.project-image {
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 20px;
+}
+
+
+.project-1 {
+	padding: 10vh;
+}
+
+.project-2 {
+	padding: 10vh;
 }
