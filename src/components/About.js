@@ -1,19 +1,7 @@
 import React from 'react';
-import { Grid, Image, Container, Popup, Card } from 'semantic-ui-react';
+import { Grid, Container} from 'semantic-ui-react';
 import './About.css';
 import Skills from './Skills';
-
-import html5 from '../icons/html-5.svg';
-import bootstrap from '../icons/bootstrap.svg';
-import css from '../icons/css-3.svg';
-import javascript from '../icons/javascript.svg';
-import mongodb from '../icons/mongodb.svg';
-import nodejs from '../icons/nodejs.svg';
-import postgresql from '../icons/postgresql.svg';
-import reactRouter from '../icons/react-router.svg';
-import react from '../icons/react.svg';
-import redux from '../icons/redux.svg';
-import semanticUI from '../icons/semantic-ui.svg';
 
 class About extends React.Component {
 	state={visible: false}
@@ -25,10 +13,10 @@ class About extends React.Component {
 		return (
 			<div className="about">
 					<Container>
+					<h1 className="section title">About</h1>
 						<Grid stackable columns={2}>
 							<Grid.Column>
 							<Grid.Row className="about-text">
-							<h1>About</h1>
 								<div>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								</div>

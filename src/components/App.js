@@ -13,10 +13,18 @@ const App = () => {
 	return (
 		<div className="page">
 			<Navigation />
-			<Intro />
-			<About />
-			<Projects />
-			<Contact />
+			<section id='intro'>
+				<Intro />
+			</section>
+			<section id='about'>
+				<About />
+			</section>
+			<section id='projects'>
+				<Projects />
+			</section>
+			<section id='contact'>
+				<Contact />
+			</section>
 		</div>
 	);
 }

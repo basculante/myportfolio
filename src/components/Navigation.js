@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './Navigation.css';
 
 class Navigation extends React.Component {
@@ -6,49 +7,40 @@ class Navigation extends React.Component {
 		return(
 			<ul className="block-menu">
 				<li>
-					<a href="null" className="three-d">
+					<AnchorLink href='#intro' className="three-d">
 					Home
 						<span aria-hidden="true" className="three-d-box">
 							<span className="front">Home</span>
 							<span className="back">Home</span>
 						</span>
-					</a>	
+					</AnchorLink>	
 				</li>
 				<li>
-					<a href="null" className="three-d">
+					<AnchorLink href='#about' offset='100' className="three-d">
 					About
 						<span aria-hidden="true" className="three-d-box">
 							<span className="front">About</span>
 							<span className="back">About</span>
 						</span>
-					</a>	
+					</AnchorLink>	
 				</li>
 				<li>
-					<a href="null" className="three-d">
+					<AnchorLink href='#projects' offset='100' className="three-d">
 					Projects
 						<span aria-hidden="true" className="three-d-box">
 							<span className="front">Projects</span>
 							<span className="back">Projects</span>
 						</span>
-					</a>	
+					</AnchorLink>	
 				</li>
 				<li>
-					<a href="null" className="three-d">
-					Skills
-						<span aria-hidden="true" className="three-d-box">
-							<span className="front">Skills</span>
-							<span className="back">Skills</span>
-						</span>
-					</a>	
-				</li>
-				<li>
-					<a href="null" className="three-d">
+					<AnchorLink href='#contact' offset='100' className="three-d">
 					Contact
 						<span aria-hidden="true" className="three-d-box">
 							<span className="front">Contact</span>
 							<span className="back">Contact</span>
 						</span>
-					</a>	
+					</AnchorLink>	
 				</li>
 			</ul>
 		);

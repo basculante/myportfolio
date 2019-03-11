@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Container, Image, Popup } from 'semantic-ui-react';
+import { Grid, Image, Popup } from 'semantic-ui-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Skills.css';
@@ -24,67 +24,67 @@ const Skills = () => {
 			<Grid className="icon-grid" centered columns={3}>
 				<Grid.Column>
 					<Popup 
-						trigger={<Image centered size='tiny' src={html5} alt="html-5"/>} 
+						trigger={<Image className="icon" centered src={html5} alt="html-5"/>} 
 						content="HTML-5"
 						/>	
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image centered size='tiny' src={css} alt="css-3"/>} 
+							trigger={<Image className="icon" centered src={css} alt="css-3"/>} 
 							content="CSS-3"
 						/>
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image centered size='tiny' src={javascript} alt="js"/>} 
+							trigger={<Image className="icon" centered src={javascript} alt="js"/>} 
 							content="JavaScript"
 						/>
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image centered size='tiny' src={react} alt="react"/>} 
+							trigger={<Image className="icon" centered src={react} alt="react"/>} 
 							content="React"
 						/>	
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image centered size='tiny' src={redux} alt="redux"/>} 
+							trigger={<Image className="icon" centered src={redux} alt="redux"/>} 
 							content="Redux"
 						/>
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image centered size='tiny' src={reactRouter} alt="react-router"/>} 
+							trigger={<Image className="icon" centered src={reactRouter} alt="react-router"/>} 
 							content="React-Router"
 						/>
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image centered size='tiny' src={semanticUI} alt="semantic-ui"/>} 
+							trigger={<Image className="icon" centered src={semanticUI} alt="semantic-ui"/>} 
 							content="Semantic-UI"
 						/>
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image centered size='tiny' src={bootstrap} alt="bootstrap"/>} 
+							trigger={<Image className="icon" centered src={bootstrap} alt="bootstrap"/>} 
 							content="Bootstrap"
 						/>	
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image centered size='tiny' src={nodejs} alt="nodejs"/>} 
+							trigger={<Image className="icon" centered src={nodejs} alt="nodejs"/>} 
 							content="NodeJS"
 						/>	
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image centered size='tiny' src={postgresql} alt="postgresql"/>} 
+							trigger={<Image className="icon" centered src={postgresql} alt="postgresql"/>} 
 							content="PostgreSQL"
 						/>	
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image centered size='tiny' src={mongodb} alt="mongodb"/>} 
+							trigger={<Image className="icon" centered src={mongodb} alt="mongodb"/>} 
 							content="MongoDB"
 						/>
 				</Grid.Column>

@@ -13,15 +13,35 @@
 }
 
 .intro-text {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 5vh;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 5vh;
 }
 
 .intro-picture {
 	box-shadow: 10px 10px 5px grey;
-  height: 25vh;
-  margin-top: 5vh;
+  	height: 25vh;
+  	margin-top: 5vh;
 }
+
+.down {
+	display: flex;
+	justify-content: center;
+	margin-top: 10vh;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.arrow-2 {
+	animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce-2 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-15px); }
+        100% { transform: translateY(0); }
+    }
 
