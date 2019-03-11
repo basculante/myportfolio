@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Image, Popup } from 'semantic-ui-react';
+import { Grid, Container, Image, Popup } from 'semantic-ui-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Skills.css';
@@ -19,8 +19,8 @@ import semanticUI from '../icons/semantic-ui.svg';
 const Skills = () => {
 	AOS.init()
 	return (
+		
 		<div className="skills">
-			<h1 className="section title">My Skills</h1>
 			<Grid className="icon-grid" centered columns={3}>
 				<Grid.Column>
 					<Popup 
@@ -90,6 +90,7 @@ const Skills = () => {
 				</Grid.Column>
 			</Grid>
 		</div>
+	
 	);
 }
 

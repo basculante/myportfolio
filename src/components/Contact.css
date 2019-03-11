@@ -1,4 +1,11 @@
 .contact {
 	background-color: #fcfcf4;
-	padding: 10vh
+	font-family: 'Lusitana', serif;
+	font-size: 3vh;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	padding: 10vh;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
 }

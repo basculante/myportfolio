@@ -1,7 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Lusitana);
 
 .about {
+	display: block;
+	justify-content: center;
+	align-items: center;
 	background-color: #fcfcf4;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+
 }
 
 .about-text {

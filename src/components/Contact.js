@@ -1,10 +1,11 @@
 import React from 'react';
-import { Form, Grid, Button } from 'semantic-ui-react';
+import { Container, Form, Grid, Button } from 'semantic-ui-react';
 import './Contact.css';
 
 class Contact extends React.Component {
 	render() {
 		return (
+		<Container>
 		<div className="contact">
 			<h1 className="section title">Contact Me</h1>
 			<Form action="https://formspree.io/victorbasculante@gmail.com" method="POST">
@@ -28,6 +29,7 @@ class Contact extends React.Component {
 			</Grid>
 			</Form>
 		</div>
+		</Container>
 		);
 	}
 }

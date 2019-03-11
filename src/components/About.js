@@ -1,6 +1,19 @@
 import React from 'react';
-import { Grid, Image, Container } from 'semantic-ui-react';
+import { Grid, Image, Container, Popup, Card } from 'semantic-ui-react';
 import './About.css';
+import Skills from './Skills';
+
+import html5 from '../icons/html-5.svg';
+import bootstrap from '../icons/bootstrap.svg';
+import css from '../icons/css-3.svg';
+import javascript from '../icons/javascript.svg';
+import mongodb from '../icons/mongodb.svg';
+import nodejs from '../icons/nodejs.svg';
+import postgresql from '../icons/postgresql.svg';
+import reactRouter from '../icons/react-router.svg';
+import react from '../icons/react.svg';
+import redux from '../icons/redux.svg';
+import semanticUI from '../icons/semantic-ui.svg';
 
 class About extends React.Component {
 	state={visible: false}
@@ -11,10 +24,9 @@ class About extends React.Component {
 
 		return (
 			<div className="about">
-				<div className="intro">
 					<Container>
 						<Grid stackable columns={2}>
-							<Grid.Column verticalAlign='middle'>
+							<Grid.Column>
 							<Grid.Row className="about-text">
 							<h1>About</h1>
 								<div>
@@ -22,12 +34,11 @@ class About extends React.Component {
 								</div>
 							</Grid.Row>
 							</Grid.Column>
-							<Grid.Column>
-									
+							<Grid.Column verticalAlign='middle'>
+								<Skills />
 							</Grid.Column>
 						</Grid>
 					</Container>
-				</div>
 			</div>
 		);
 	}
