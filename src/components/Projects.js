@@ -15,6 +15,15 @@ class Projects extends React.Component {
 					<Grid stackable columns={2}>
 					<Grid.Column>
 						<Card fluid raised centered className="project-grid">
+							<Image src={require("../projectimages/moodmusic.png")} className="project-image"/>
+							<Card.Content>
+								<Card.Header>Mood Music</Card.Header>
+								<Card.Description>This is my project.</Card.Description>
+							</Card.Content>
+						</Card>
+					</Grid.Column>
+					<Grid.Column>
+						<Card fluid raised centered className="project-grid">
 							<Image src={require("../projectimages/fourwallsofiron.png")} className="project-image"/>
 							<Card.Content>
 								<Card.Header>Four Walls of Iron</Card.Header>
@@ -23,7 +32,7 @@ class Projects extends React.Component {
 						</Card>
 					</Grid.Column>
 					<Grid.Column>
-						<Card fluid raised centered  className="project-grid">
+						<Card fluid raised centered className="project-grid">
 							<Image src={require("../projectimages/meditation_timer.png")} className="project-image"/>
 							<Card.Content>
 								<Card.Header>Meditation Timer</Card.Header>

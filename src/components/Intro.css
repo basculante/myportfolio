@@ -20,7 +20,6 @@
 }
 
 .intro-picture {
-	box-shadow: 10px 10px 5px grey;
   	height: 25vh;
   	margin-top: 5vh;
 }
@@ -32,6 +31,7 @@
 	animation-duration: 2s;
     animation-iteration-count: infinite;
     transform-origin: bottom;
+    color: black;
 }
 
 .arrow-2 {
