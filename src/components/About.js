@@ -1,29 +1,51 @@
 import React from 'react';
-import { Grid, Container} from 'semantic-ui-react';
+import { Grid, Container, Icon, Popup} from 'semantic-ui-react';
 import './About.css';
-import Skills from './Skills';
 
 class About extends React.Component {
-	state={visible: false}
-
-	handleVisibility = () => this.setState({ visible: !this.state.visible })
 	render() {
-		const { visible } = this.state
-
 		return (
 			<div className="about">
 					<Container>
 					<h1 className="section title">About</h1>
-						<Grid stackable columns={2}>
+						<Grid stackable columns={1}>
 							<Grid.Column>
-							<Grid.Row className="about-text">
-								<div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<Grid.Row>
+								<div className="about-text">
+									My name is Victor (Wan-Teak) Joh.
+									I graduated with a B.A. in chemistry from New York University. I enjoy combining the analytical skills 
+									gained from this field with my passion for design and creativity, and I utilize the React
+									framework to turn my ideas into web applications. 
+									All of my projects are related to a hobby or passion
+									of mine, and I use these apps in my everyday life. I am expanding and learning new skills daily, and I plan to 
+									grow my knowledge further, especially with regards to backend development. I am currently looking for my first
+									position as a web developer. 
 								</div>
 							</Grid.Row>
 							</Grid.Column>
-							<Grid.Column verticalAlign='middle'>
-								<Skills />
+							<Grid.Column>
+								<div className="social-icon">
+									
+									<a href="https://github.com/basculante">
+									<Popup 
+										trigger={<Icon className="resume-icon" name="github" size={'huge'}/>} 
+										content="Github"
+										/>	
+									</a>
+									<a href="https://www.linkedin.com/in/wan-teak-joh-924203ba/">
+									<Popup 
+										trigger={<Icon className="resume-icon" name="linkedin" size={'huge'}/>} 
+										content="LinkedIn"
+										/>
+									</a>
+									<a>
+									<Popup 
+
+										trigger={<Icon className="resume-icon" name="file" size={'huge'}/>} 
+										content="CV"
+										/>	
+									</a>
+								</div>
 							</Grid.Column>
 						</Grid>
 					</Container>

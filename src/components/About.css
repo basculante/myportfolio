@@ -13,4 +13,16 @@
 .about-text {
 	font-size: 3vh;
 	font-family: 'Lusitana', serif;
+	line-height: 1.7;
+}
+
+.social-icon {
+	display: flex;
+	justify-content: center;
+	margin: 3vh;
+	color: black;
+}
+
+.resume-icon {
+	margin: 2vh;
 }

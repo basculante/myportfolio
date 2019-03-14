@@ -16,8 +16,8 @@ const Intro = () => {
 							</Grid.Row>
 							<Grid.Row className="intro-text">
 								<div>
-									<p>Hello, my name is Victor.</p>
-									<p>I am a web developer.</p>
+									<p>Victor</p>
+									<p>Web Developer/React/Redux</p>
 								</div>
 							</Grid.Row>
 							<Grid.Row className="down arrow-2">

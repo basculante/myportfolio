@@ -6,7 +6,6 @@ import Intro from './Intro';
 import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
-import Resume from './Resume';
 import Contact from './Contact';
 
 const App = () => {
@@ -22,9 +21,11 @@ const App = () => {
 			<section id='projects'>
 				<Projects />
 			</section>
+			<Skills/>
 			<section id='contact'>
 				<Contact />
 			</section>
+
 		</div>
 	);
 }
