@@ -7,10 +7,11 @@ import 'aos/dist/aos.css';
 import html5 from '../icons/html-5.svg';
 import bootstrap from '../icons/bootstrap.svg';
 import css from '../icons/css-3.svg';
-import javascript from '../icons/javascript.svg';
 import reactRouter from '../icons/react-router.svg';
 import react from '../icons/react.svg';
 import redux from '../icons/redux.svg';
+import express from '../icons/express.svg';
+import knex from '../icons/knex.svg';
 import semanticUI from '../icons/semantic-ui.svg';
 
 class Projects extends React.Component {
@@ -24,7 +25,61 @@ class Projects extends React.Component {
 					<Grid stackable columns={2}>
 					<Grid.Column>
 						<Card fluid raised centered className="project-card">
-							<Image src={require("../projectimages/moodmusic.png")} className="project-image"/>
+							<Image src={require("../projectimages/fourwallsofiron2.jpg")} className="project-image"/>
+							<Card.Content>
+								<Card.Header>
+									<div className="card-header">
+										Four Walls of Iron 2.0
+									</div>
+								</Card.Header>
+								<Card.Description>
+									<div className="card-description">
+										A full-stack, responsive, improved version of Four Walls of Iron. This workout app uses Redux and Redux-Form. 
+										The back-end server is utilizing Express, NodeJS, and Knex. The user database is using PostgreSQL. 
+									</div>
+									<Divider />
+									<div>
+										<Popup 
+											trigger={<Image style={{height:'8vh', padding: '2vh'}} src={html5} />} 
+											content="HTML-5"
+											/>	
+										<Popup 
+											trigger={<Image style={{height:'8vh', padding: '2vh'}} src={css} />} 
+											content="CSS3"
+											/>
+										<Popup 
+											trigger={<Image style={{height:'8vh', padding: '2vh'}} src={react} />} 
+											content="React"
+											/>
+										<Popup 
+											trigger={<Image style={{height:'8vh', padding: '2vh'}} src={redux} />} 
+											content="Redux"
+											/>
+										<Popup 
+											trigger={<Image style={{height:'8vh', padding: '2vh'}} src={express} />} 
+											content="Express"
+											/>
+										<Popup 
+											trigger={<Image style={{height:'8vh', padding: '2vh'}} src={knex} />} 
+											content="Knex"
+											/>
+										<Popup 
+											trigger={<Image style={{height:'8vh', padding: '2vh'}} src={semanticUI} />} 
+											content="Semantic-UI"
+											/>						
+									</div>
+									<Divider />
+										<div>
+											<a href="https://silly-curran-d6b678.netlify.com/">Live Site</a>
+											<a href="https://github.com/basculante/fourwalls-frontend">Github</a>
+										</div>
+								</Card.Description>
+							</Card.Content>
+						</Card>
+					</Grid.Column>
+					<Grid.Column>
+						<Card fluid raised centered className="project-card">
+							<Image src={require("../projectimages/moodmusic.jpg")} className="project-image"/>
 							<Card.Content>
 								<Card.Header>
 									<div className="card-header">
@@ -34,7 +89,7 @@ class Projects extends React.Component {
 								<Card.Description>
 									<div className="card-description">
 									A responsive weather application that displays a Spotify playlist based on the current weather conditions.
-									Along with the stack listed below, this app uses Redux Form, the OpenWeatherMap API, and the Spotify Play Button.
+									 Along with the stack listed below, this app uses Redux Form, the OpenWeatherMap API, and the Spotify Play Button.
 									</div>
 									<Divider />
 									<div>
@@ -70,7 +125,7 @@ class Projects extends React.Component {
 					</Grid.Column>
 					<Grid.Column>
 						<Card fluid raised centered className="project-card">
-							<Image src={require("../projectimages/fourwallsofiron.png")} className="project-image"/>
+							<Image src={require("../projectimages/fourwallsofiron.jpg")} className="project-image"/>
 							<Card.Content>
 								<Card.Header>
 									<div className="card-header">
@@ -79,7 +134,7 @@ class Projects extends React.Component {
 								 </Card.Header>
 								<Card.Description>
 									<div className="card-description">
-									A workout application that makes choosing your next program easy. Pick your 
+									A workout application that makes choosing your next program easy. Pick your
 									desired goal, enter in your maxes, and this workout app will calculate the rest
 									for you.
 									</div>
@@ -117,7 +172,7 @@ class Projects extends React.Component {
 					</Grid.Column>
 					<Grid.Column>
 						<Card fluid raised centered className="project-card">
-							<Image src={require("../projectimages/meditation_timer.png")} className="project-image"/>
+							<Image src={require("../projectimages/meditation_timer.jpg")} className="project-image"/>
 							<Card.Content>
 								<Card.Header>
 									<div className="card-header">
@@ -126,9 +181,9 @@ class Projects extends React.Component {
 								 </Card.Header>
 								<Card.Description>
 									<div className="card-description">
-									A simple meditation timer to help with your daily meditation sessions. This was my first 
+									A simple meditation timer to help with your daily meditation sessions. This was my first
 									project. By building this app, I was able to learn how to use React as well as
-									practice coding in Javascript. 
+									practice coding in Javascript.
 									</div>
 									<Divider />
 									<div>

@@ -7,6 +7,7 @@ import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
+import Copyright from './Copyright';
 
 const App = () => {
 	return (
@@ -25,7 +26,7 @@ const App = () => {
 			<section id='contact'>
 				<Contact />
 			</section>
-
+			<Copyright />
 		</div>
 	);
 }

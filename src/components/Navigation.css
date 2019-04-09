@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Francois+One');
-@import url(https://fonts.googleapis.com/css?family=Lusitana);
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 /* basic menu styles */
 
 .block-menu {
 	display: block;
 	z-index: 1000;
-	background: #fcfcf4;
+	background: #fcfcf4;;
 	position: fixed;
 	margin: 0;
-	padding: 3vh;
+	padding: 1vh;
 	width: 100%;
 }
 
@@ -22,7 +20,7 @@
 	color: #fcfcf4;
 	display: block;
 	text-decoration: none;
-	font-family: 'Lusitana', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-smoothing: antialiased;
 	text-transform: uppercase;
 	overflow: visible;

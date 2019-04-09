@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lusitana);
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 .about {
 	display: block;
@@ -12,7 +12,7 @@
 
 .about-text {
 	font-size: 3vh;
-	font-family: 'Lusitana', serif;
+	font-family: 'Quicksand', sans-serif;
 	line-height: 1.7;
 }
 

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.copyright_page {
+	background-image: url('../backgrounds/background.png');
+	padding: 2vh;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	text-align: center;
+}

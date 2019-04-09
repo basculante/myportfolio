@@ -13,19 +13,16 @@ class About extends React.Component {
 							<Grid.Row>
 								<div className="about-text">
 									My name is Victor (Wan-Teak) Joh.
-									I graduated with a B.A. in chemistry from New York University. I enjoy combining the analytical skills 
-									gained from this field with my passion for design and creativity, and I utilize the React
-									framework to turn my ideas into web applications. 
-									All of my projects are related to a hobby or passion
-									of mine, and I use these apps in my everyday life. I am expanding and learning new skills daily, and I plan to 
-									grow my knowledge further, especially with regards to backend development. I am currently looking for my first
-									position as a web developer. 
+									I graduated with a B.A. in chemistry from New York University. I enjoy combining the analytical methods
+									gained from this field with my interest for design and creativity.
+									All of my projects are related to a hobby or passion of mine, and I use these apps in my everyday life. 
+									I enjoy learning new skills everyday in order to turn my ideas into working products.
+									I am currently looking for my first position as a web developer. 
 								</div>
 							</Grid.Row>
 							</Grid.Column>
 							<Grid.Column>
 								<div className="social-icon">
-									
 									<a href="https://github.com/basculante">
 									<Popup 
 										trigger={<Icon className="resume-icon" name="github" size={'huge'}/>} 
@@ -40,7 +37,6 @@ class About extends React.Component {
 									</a>
 									<a>
 									<Popup 
-
 										trigger={<Icon className="resume-icon" name="file" size={'huge'}/>} 
 										content="CV"
 										/>	

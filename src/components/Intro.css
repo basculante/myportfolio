@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Francois+One');
-@import url(https://fonts.googleapis.com/css?family=Lusitana);
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 .intro {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	font-family: 'Lusitana', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 3vw;
-	background-color: #fcfcf4;
+	color: white;
+	background-image: url('../backgrounds/background.png');
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 .intro-text {
@@ -29,9 +31,9 @@
 	justify-content: center;
 	margin-top: 10vh;
 	animation-duration: 2s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom;
-    color: black;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  color: white;
 }
 
 .arrow-2 {

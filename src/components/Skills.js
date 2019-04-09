@@ -8,12 +8,13 @@ import html5 from '../icons/html-5.svg';
 import bootstrap from '../icons/bootstrap.svg';
 import css from '../icons/css-3.svg';
 import javascript from '../icons/javascript.svg';
-import mongodb from '../icons/mongodb.svg';
 import nodejs from '../icons/nodejs.svg';
 import postgresql from '../icons/postgresql.svg';
 import reactRouter from '../icons/react-router.svg';
 import react from '../icons/react.svg';
 import redux from '../icons/redux.svg';
+import express from '../icons/express.svg';
+import knex from '../icons/knex.svg';
 import semanticUI from '../icons/semantic-ui.svg';
 
 const Skills = () => {
@@ -73,20 +74,26 @@ const Skills = () => {
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image className="icon" centered src={nodejs} alt="nodejs"/>} 
-							content="NodeJS"
-						/>	
-				</Grid.Column>
-				<Grid.Column>
-					<Popup 
 							trigger={<Image className="icon" centered src={postgresql} alt="postgresql"/>} 
 							content="PostgreSQL"
 						/>	
 				</Grid.Column>
 				<Grid.Column>
 					<Popup 
-							trigger={<Image className="icon" centered src={mongodb} alt="mongodb"/>} 
-							content="MongoDB"
+							trigger={<Image className="icon" centered src={nodejs} alt="nodejs"/>} 
+							content="NodeJS"
+						/>	
+				</Grid.Column>
+				<Grid.Column>
+					<Popup 
+							trigger={<Image className="icon" centered src={express} alt="express"/>} 
+							content="Express"
+						/>
+				</Grid.Column>
+				<Grid.Column>
+					<Popup 
+							trigger={<Image className="icon" centered src={knex} alt="knex"/>} 
+							content="Knex"
 						/>
 				</Grid.Column>
 			</Grid>

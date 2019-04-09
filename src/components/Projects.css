@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Lusitana);
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 .projects {
 	background-color: #fcfcf4;
-	font-family: 'Lusitana', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 3vh;
 	display: block;
 	justify-content: center;
@@ -11,13 +11,17 @@
 	margin-bottom: 10vh;
 }
 
+.project-card {
+	height: 100%;
+}
+
 .card-description {
 	font-size: 2.5vh;
 	line-height: 1.5;
 }
 
 .card-header {
-	font-family: 'Lusitana', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 3vh;
 }
 

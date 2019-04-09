@@ -1,11 +1,10 @@
 import React from 'react';
-import { Grid, Image, Container, Icon } from 'semantic-ui-react';
+import { Grid, Image, Icon } from 'semantic-ui-react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './Intro.css';
 
 const Intro = () => {
 	return (
-		<Container>
 			<div className="page">
 				<div className="intro">
 					<Grid stackable columns={1}>
@@ -16,8 +15,8 @@ const Intro = () => {
 							</Grid.Row>
 							<Grid.Row className="intro-text">
 								<div>
-									<p>Victor</p>
-									<p>Web Developer/React/Redux</p>
+									<p>{'VICTOR JOH'}</p>
+									<p>{'WEB DEVELOPER/REACT/REDUX'}</p>
 								</div>
 							</Grid.Row>
 							<Grid.Row className="down arrow-2">
@@ -29,7 +28,6 @@ const Intro = () => {
 					</Grid>
 				</div>
 			</div>
-		</Container>
 	);
 }
 

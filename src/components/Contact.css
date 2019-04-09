@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Lusitana);
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 .contact {
 	background-color: #fcfcf4;
-	font-family: 'Lusitana', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 3vh;
 	display: block;
 	justify-content: center;
@@ -12,5 +12,5 @@
 }
 
 .submit-button {
-	font-family: 'Lusitana', serif;
+	font-family: 'Quicksand', sans-serif !important;
 }
