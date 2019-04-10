@@ -71,7 +71,8 @@ class Projects extends React.Component {
 									<Divider />
 										<div>
 											<a href="https://silly-curran-d6b678.netlify.com/">Live Site</a>
-											<a href="https://github.com/basculante/fourwalls-frontend">Github</a>
+											<a href="https://github.com/basculante/fourwalls-frontend">Github (Front-End)</a>
+											<a href="https://github.com/basculante/fourwalls-api">Github (API)</a>
 										</div>
 								</Card.Description>
 							</Card.Content>
