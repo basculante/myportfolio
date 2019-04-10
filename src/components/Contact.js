@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Form, Grid, Button, Segment } from 'semantic-ui-react';
+import { Container, Grid, Button, Segment } from 'semantic-ui-react';
 import './Contact.css';
 
 class Contact extends React.Component {
@@ -8,20 +8,25 @@ class Contact extends React.Component {
 		<Container>
 		<div className="contact">
 			<h1 className="section title">Contact Me</h1>
-			<Form name="contact" method="POST" data-netlify="true">
+			<form name="contact" method="POST" data-netlify="true">
 				<Segment>
 					<Grid centered>
 						<Grid.Row>
-							<Grid.Column>
-									<Form.Group widths='equal'>
-											<Form.Input label='Name' placeholder='Name' />
-											<Form.Input label='Email' placeholder='Email' />
-									</Form.Group>
+							<Grid.Column textAlign={'center'}>
+								<p><label>Name:</label></p>
+								<p><input type="text" name="name" /></p> 
 							</Grid.Column>
 						</Grid.Row>
 						<Grid.Row>
-							<Grid.Column>
-									<Form.TextArea label='Message' placeholder='Message' />
+							<Grid.Column textAlign={'center'}>
+								<p><label>Email:</label></p>
+								<p><input type="email" name="email" /></p>
+							</Grid.Column>
+						</Grid.Row>
+						<Grid.Row>
+							<Grid.Column textAlign={'center'}>
+								<p><label>Message:</label></p>
+								<p> <textarea name="message"></textarea></p>
 							</Grid.Column>
 						</Grid.Row>
 						<Grid.Row>
@@ -29,7 +34,7 @@ class Contact extends React.Component {
 						</Grid.Row>
 					</Grid>
 				</Segment>
-			</Form>
+			</form>
 		</div>
 		</Container>
 		);

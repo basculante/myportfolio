@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Container, Icon, Popup} from 'semantic-ui-react';
+import Resume from '../resume/Resume.pdf';
 import './About.css';
 
 class About extends React.Component {
@@ -35,7 +36,7 @@ class About extends React.Component {
 										content="LinkedIn"
 										/>
 									</a>
-									<a>
+									<a href={Resume}>
 									<Popup 
 										trigger={<Icon className="resume-icon" name="file" size={'huge'}/>} 
 										content="CV"
