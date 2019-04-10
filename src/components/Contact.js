@@ -30,7 +30,7 @@ class Contact extends React.Component {
 							</Grid.Column>
 						</Grid.Row>
 						<Grid.Row>
-							<Button secondary className="submit-button">Submit</Button>
+							<button type="submit">Submit</button>
 						</Grid.Row>
 					</Grid>
 				</Segment>
