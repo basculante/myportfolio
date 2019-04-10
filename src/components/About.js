@@ -30,7 +30,7 @@ class About extends React.Component {
 										content="Github"
 										/>	
 									</a>
-									<a href="https://www.linkedin.com/in/wan-teak-joh-924203ba/">
+									<a href="https://www.linkedin.com/in/victor-wan-teak-joh-924203ba/">
 									<Popup 
 										trigger={<Icon className="resume-icon" name="linkedin" size={'huge'}/>} 
 										content="LinkedIn"
