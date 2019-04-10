@@ -16,10 +16,10 @@
 }
 
 input {
-	width: 100%;
+	width: 75%;
 }
 
 textarea {
-	width: 100%;
+	width: 75%;
 	height: 15vh;
 }
