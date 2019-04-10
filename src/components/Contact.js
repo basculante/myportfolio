@@ -8,7 +8,7 @@ class Contact extends React.Component {
 		<Container>
 		<div className="contact">
 			<h1 className="section title">Contact Me</h1>
-			<form name="contact" method="POST" netlify>
+			<form action="https://formspree.io/wantechjoh@gmail.com" method="POST">
 				<Segment>
 					<Grid centered>
 						<Grid.Row>
@@ -20,7 +20,7 @@ class Contact extends React.Component {
 						<Grid.Row>
 							<Grid.Column textAlign={'center'}>
 								<p><label>Email:</label></p>
-								<p><input type="email" name="email" /></p>
+								<p><input type="email" name="_replyto" /></p>
 							</Grid.Column>
 						</Grid.Row>
 						<Grid.Row>
