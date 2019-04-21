@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
 .copyright_page {
 	background-color: #fcfcf4;
 	padding: 2vh;
-	font-family: "Quicksand", sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	color: black;
 	text-align: center;
 }
