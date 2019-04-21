@@ -1,14 +1,42 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
-.projects {
-	background-color: #fcfcf4;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 3vh;
+.project-page {
+	background-image: url("../backgrounds/background.svg");
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 2.5vh;
 	display: block;
 	justify-content: center;
 	align-items: center;
-	margin-top: 30vh;
-	margin-bottom: 10vh;
+	padding-bottom: 10vh;
+}
+
+.project-title {
+	display: flex;
+	justify-content: center;
+	font-size: 6vh;
+	text-decoration: underline;
+	font-family: "Josefin Sans", sans-serif;
+	padding-top: 10vh;
+	padding-bottom: 7vh;
+	color: white;
+}
+
+.project-image {
+	position: absolute;
+	height: 50vh !important;
+	object-fit: cover;
+	box-shadow: 4px 4px 5px grey;
+	border-radius: 10px;
+}
+
+.project-container {
+	background-color: white;
+	border-radius: 4px;
+	margin-bottom: 100px !important;
+}
+
+.project-name {
+	font-size: 5vh;
 }
 
 .project-card {
@@ -21,10 +49,10 @@
 }
 
 .card-header {
-	font-family: 'Quicksand', sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	font-size: 3vh;
 }
 
-a+a {
-  margin-left: 20px;
+a + a {
+	margin-left: 20px;
 }

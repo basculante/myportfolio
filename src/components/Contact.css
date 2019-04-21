@@ -1,18 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+.contact-page {
+	background-image: url("../backgrounds/background.svg");
+	padding-bottom: 10vh;
+}
+
+.contact-title {
+	display: flex;
+	justify-content: center;
+	font-size: 6vh;
+	text-decoration: underline;
+	font-family: "Josefin Sans", sans-serif;
+	padding-top: 10vh;
+	padding-bottom: 7vh;
+	color: white;
+}
 
 .contact {
-	background-color: #fcfcf4;
-	font-family: 'Quicksand', sans-serif;
+	background-image: url("../backgrounds/background.svg");
+	font-family: "Josefin Sans", sans-serif;
+	color: black;
 	font-size: 3vh;
 	display: block;
 	justify-content: center;
 	align-items: center;
-	margin-top: 20vh;
-	padding-bottom: 10vh;
+	padding: 4vh;
+}
+
+.contact-input {
+	border-radius: 30px;
+	padding: 15px;
+}
+
+.contact-form {
+	background-color: #fcfcf4;
 }
 
 .submit-button {
-	font-family: 'Quicksand', sans-serif !important;
+	font-family: "Josefin Sans", sans-serif !important;
+	background-color: #3C153B !important;
 }
 
 input {

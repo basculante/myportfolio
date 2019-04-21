@@ -1,4 +1,19 @@
-@import url(https://fonts.googleapis.com/css?family=Lusitana);
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+.skill-page {
+	background-color: #fcfcf4;
+	padding-bottom: 15vh;
+}
+
+.skill-title {
+	display: flex;
+	justify-content: center;
+	font-size: 6vh;
+	text-decoration: underline;
+	font-family: "Josefin Sans", sans-serif;
+	padding-top: 10vh;
+	padding-bottom: 7vh;
+}
 
 .icon {
 	height: 10vh;

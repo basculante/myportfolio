@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
 /* basic menu styles */
 
 .block-menu {
 	display: block;
 	z-index: 1000;
-	background: #fcfcf4;;
+	background: #fcfcf4;
 	position: fixed;
 	margin: 0;
 	padding: 1vh;
@@ -20,30 +20,30 @@
 	color: #fcfcf4;
 	display: block;
 	text-decoration: none;
-	font-family: 'Quicksand', sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	font-smoothing: antialiased;
 	text-transform: uppercase;
 	overflow: visible;
 	line-height: 20px;
-	font-size: 3vh;
+	font-size: 2.5vh;
 	padding: 15px 10px;
 }
 
 /* animation domination */
 .three-d {
 	perspective: 200px;
-	transition: all .07s linear;
+	transition: all 0.07s linear;
 	position: relative;
 	cursor: pointer;
 }
-	/* complete the animation! */
-	.three-d:hover .three-d-box, 
-	.three-d:focus .three-d-box {
-		transform: translateZ(-25px) rotateX(90deg);
-	}
+/* complete the animation! */
+.three-d:hover .three-d-box,
+.three-d:focus .three-d-box {
+	transform: translateZ(-25px) rotateX(90deg);
+}
 
 .three-d-box {
-	transition: all .3s ease-out;
+	transition: all 0.3s ease-out;
 	transform: translatez(-25px);
 	transform-style: preserve-3d;
 	pointer-events: none;
@@ -68,7 +68,8 @@
 	color: #fcfcf4;
 }
 
-.front, .back {
+.front,
+.back {
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -81,4 +82,3 @@
 	pointer-events: none;
 	box-sizing: border-box;
 }
-

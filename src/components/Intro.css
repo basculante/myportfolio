@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
 .intro {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	font-family: 'Quicksand', sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	font-size: 3vw;
 	color: white;
-	background-image: url('../backgrounds/background.png');
+	background-image: url("../backgrounds/background.svg");
 	background-attachment: fixed;
-  background-position: center;
-  background-repeat: repeat;
+	background-position: center;
+	background-repeat: repeat;
 }
 
 .intro-text {
@@ -22,8 +22,20 @@
 }
 
 .intro-picture {
-  	height: 25vh;
-  	margin-top: 5vh;
+	height: 25vh;
+	margin-top: 5vh;
+}
+
+.social-icon {
+	display: flex;
+	justify-content: center;
+	padding-top: 10vh;
+}
+
+.resume-icon {
+	margin-left: 5vh !important;
+	margin-right: 5vh !important;
+	color: white;
 }
 
 .down {
@@ -31,19 +43,24 @@
 	justify-content: center;
 	margin-top: 10vh;
 	animation-duration: 2s;
-  animation-iteration-count: infinite;
-  transform-origin: bottom;
-  color: white;
+	animation-iteration-count: infinite;
+	transform-origin: bottom;
+	color: white;
 }
 
 .arrow-2 {
 	animation-name: bounce-2;
-    animation-timing-function: ease;
+	animation-timing-function: ease;
 }
 
 @keyframes bounce-2 {
-        0%   { transform: translateY(0); }
-        50%  { transform: translateY(-15px); }
-        100% { transform: translateY(0); }
-    }
-
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-15px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}

@@ -1,46 +1,46 @@
-import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import './Navigation.css';
+import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import "./Navigation.css";
 
 class Navigation extends React.Component {
 	render() {
-		return(
+		return (
 			<ul className="block-menu">
 				<li>
-					<AnchorLink href='#intro' className="three-d">
-					Home
+					<AnchorLink href="#intro" className="three-d">
+						Home
 						<span aria-hidden="true" className="three-d-box">
 							<span className="front">Home</span>
 							<span className="back">Home</span>
 						</span>
-					</AnchorLink>	
+					</AnchorLink>
 				</li>
 				<li>
-					<AnchorLink href='#about' offset='100' className="three-d">
-					About
+					<AnchorLink href="#about" offset="100" className="three-d">
+						About
 						<span aria-hidden="true" className="three-d-box">
 							<span className="front">About</span>
 							<span className="back">About</span>
 						</span>
-					</AnchorLink>	
+					</AnchorLink>
 				</li>
 				<li>
-					<AnchorLink href='#projects' offset='100' className="three-d">
-					Projects
+					<AnchorLink href="#projects" offset="100" className="three-d">
+						Projects
 						<span aria-hidden="true" className="three-d-box">
 							<span className="front">Projects</span>
 							<span className="back">Projects</span>
 						</span>
-					</AnchorLink>	
+					</AnchorLink>
 				</li>
 				<li>
-					<AnchorLink href='#contact' offset='100' className="three-d">
-					Contact
+					<AnchorLink href="#contact" offset="100" className="three-d">
+						Contact
 						<span aria-hidden="true" className="three-d-box">
 							<span className="front">Contact</span>
 							<span className="back">Contact</span>
 						</span>
-					</AnchorLink>	
+					</AnchorLink>
 				</li>
 			</ul>
 		);
@@ -55,7 +55,7 @@ export default Navigation;
 // 						<div className="icon">
 // 							<i className="large home icon" onClick={this.scrollToTop}></i>
 // 						<div className="icon_description">Home</div>
-// 					</div>	
+// 					</div>
 // 				</div>
 // 				<div className="row">
 // 					<div className="icon">
@@ -70,7 +70,7 @@ export default Navigation;
 // 								<div className="icon_description">About</div>
 // 						</Link>
 // 					</div>
-// 				</div>	
+// 				</div>
 // 				<div className="row">
 // 					<div className="icon">
 // 						<Link
@@ -112,7 +112,7 @@ export default Navigation;
 // 								<div className="icon_description">Resume</div>
 // 						</Link>
 // 					</div>
-// 				</div>			
+// 				</div>
 // 				<div className="row">
 // 					<div className="icon">
 // 						<Link
@@ -131,13 +131,13 @@ export default Navigation;
 // 					<div className="icon">
 // 						<a href="https://github.com/basculante"><i className="large github icon"></i></a>
 // 						<div className="icon_description">My Github</div>
-// 					</div>	
-// 				</div>	
+// 					</div>
+// 				</div>
 // 				<div className="row">
 // 					<div className="icon">
 // 						<a href="https://www.linkedin.com"><i className="large linkedin icon"></i></a>
 // 						<div className="icon_description">My LinkedIn</div>
 // 					</div>
-// 				</div>		
+// 				</div>
 // 			</div>
 // 		</div>

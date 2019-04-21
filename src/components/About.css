@@ -1,28 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
 .about {
 	display: block;
 	justify-content: center;
 	align-items: center;
 	background-color: #fcfcf4;
-	margin-top: 10vh;
-	margin-bottom: 10vh;
+	padding-bottom: 20vh;
+}
 
+.about-title {
+	display: flex;
+	justify-content: center;
+	font-size: 6vh;
+	text-decoration: underline;
+	font-family: "Josefin Sans", sans-serif;
+	padding-top: 10vh;
+	padding-bottom: 7vh;
+}
+
+.about-grid {
+	height: 100%;
 }
 
 .about-text {
-	font-size: 3vh;
-	font-family: 'Quicksand', sans-serif;
+	font-size: 2.5vh;
+	font-family: "Josefin Sans", sans-serif;
 	line-height: 1.7;
 }
 
-.social-icon {
-	display: flex;
-	justify-content: center;
-	margin: 3vh;
-	color: black;
-}
 
-.resume-icon {
-	margin: 2vh;
-}
