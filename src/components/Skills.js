@@ -12,7 +12,7 @@ import reactRouter from "../icons/react-router.svg";
 import react from "../icons/react.svg";
 import redux from "../icons/redux.svg";
 import express from "../icons/express.svg";
-import knex from "../icons/knex.svg";
+import mongoDB from "../icons/mongodb.svg";
 import semanticUI from "../icons/semantic-ui.svg";
 
 const Skills = () => {
@@ -182,11 +182,11 @@ const Skills = () => {
                         <Image
                           className="icon"
                           centered
-                          src={knex}
-                          alt="knex"
+                          src={mongoDB}
+                          alt="mongoDB"
                         />
                       }
-                      content="Knex"
+                      content="mongoDB"
                     />
                   </Grid.Column>
                 </Grid>

@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Grid,
-  Container,
-  Image,
-  Divider,
-  Popup
-} from "semantic-ui-react";
+import { Grid, Container, Image, Divider, Popup } from "semantic-ui-react";
 import "./Projects.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -19,6 +13,8 @@ import redux from "../icons/redux.svg";
 import express from "../icons/express.svg";
 import knex from "../icons/knex.svg";
 import semanticUI from "../icons/semantic-ui.svg";
+import mongoDB from "../icons/mongodb.svg";
+import materializeCSS from "../icons/materializecss.svg";
 
 class Projects extends React.Component {
   render() {
@@ -29,6 +25,109 @@ class Projects extends React.Component {
           <div className="projects">
             <div className="project-content">
               <h1 className="project-title">Projects</h1>
+              <Grid stackable columns={2} className="project-container">
+                <Grid.Row>
+                  <Grid.Column>
+                    <Image
+                      src={require("../projectimages/standing-eight.png")}
+                      className="project-image"
+                    />
+                  </Grid.Column>
+                  <Grid.Column>
+                    <div>
+                      <h3 className="project-name">Standing-Eight!</h3>
+                    </div>
+                    <Divider />
+                    <div className="card-description">
+                      A full-stack, responsive, boxing web app. Watch boxing
+                      videos, graph training data, and purchase a boxing
+                      program. This app uses React and Redux. The back-end
+                      server is utilizing Express, MongoDB, Mongoose, and
+                      Passport.js to handle Google authentication and user data.
+                      The app is styled using MaterializeCSS.
+                    </div>
+                    <Divider />
+                    <div>
+                      <Grid>
+                        <Grid.Row>
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={html5}
+                              />
+                            }
+                            content="HTML-5"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={css}
+                              />
+                            }
+                            content="CSS3"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={react}
+                              />
+                            }
+                            content="React"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={redux}
+                              />
+                            }
+                            content="Redux"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={mongoDB}
+                              />
+                            }
+                            content="mongoDB"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={materializeCSS}
+                              />
+                            }
+                            content="materializeCSS"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={express}
+                              />
+                            }
+                            content="Express"
+                          />
+                        </Grid.Row>
+                      </Grid>
+                    </div>
+                    <Divider />
+                    <div>
+                      <a href="https://peaceful-atoll-85541.herokuapp.com/">
+                        Live Site
+                      </a>
+                      <a href="https://github.com/basculante/standing-eight-server">
+                        Github
+                      </a>
+                    </div>
+                  </Grid.Column>
+                </Grid.Row>
+              </Grid>
               <Grid stackable columns={2} className="project-container">
                 <Grid.Row>
                   <Grid.Column>
@@ -312,8 +411,8 @@ class Projects extends React.Component {
                     </div>
                     <Divider />
                     <div className="card-description">
-                      A simple meditation timer built using React to help with your daily
-                      meditation sessions.
+                      A simple meditation timer built using React to help with
+                      your daily meditation sessions.
                     </div>
                     <Divider />
                     <div>
