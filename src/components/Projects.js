@@ -29,6 +29,107 @@ class Projects extends React.Component {
                 <Grid.Row>
                   <Grid.Column>
                     <Image
+                      src={require("../projectimages/surveysoup.png")}
+                      className="project-image"
+                    />
+                  </Grid.Column>
+                  <Grid.Column>
+                    <div>
+                      <h3 className="project-name">Survey Soup</h3>
+                    </div>
+                    <Divider />
+                    <div className="card-description">
+                      A survey web application to create, share, and visualize surveys. This app is built
+                      using React and Redux along with React-Vis to handle data visualization. The back-end
+                      server is using Express, MongoDB, and Mongoose along with Passport.js to handle
+                      user authentication and data. The app is styled using MaterializeCSS.
+                    </div>
+                    <Divider />
+                    <div>
+                      <Grid>
+                        <Grid.Row>
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={html5}
+                              />
+                            }
+                            content="HTML-5"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={css}
+                              />
+                            }
+                            content="CSS3"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={react}
+                              />
+                            }
+                            content="React"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={redux}
+                              />
+                            }
+                            content="Redux"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={mongoDB}
+                              />
+                            }
+                            content="mongoDB"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={materializeCSS}
+                              />
+                            }
+                            content="materializeCSS"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={express}
+                              />
+                            }
+                            content="Express"
+                          />
+                        </Grid.Row>
+                      </Grid>
+                    </div>
+                    <Divider />
+                    <div>
+                      <a href="https://evening-river-73242.herokuapp.com/">
+                        Live Site
+                      </a>
+                      <a href="https://github.com/basculante/surveysoup">
+                        Github
+                      </a>
+                    </div>
+                  </Grid.Column>
+                </Grid.Row>
+              </Grid>
+              <Grid stackable columns={2} className="project-container">
+                <Grid.Row>
+                  <Grid.Column>
+                    <Image
                       src={require("../projectimages/standing-eight.png")}
                       className="project-image"
                     />
