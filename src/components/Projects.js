@@ -29,6 +29,83 @@ class Projects extends React.Component {
                 <Grid.Row>
                   <Grid.Column>
                     <Image
+                      src={require("../projectimages/textspeech.png")}
+                      className="project-image"
+                    />
+                  </Grid.Column>
+                  <Grid.Column>
+                    <div>
+                      <h3 className="project-name">Text Speech Translator</h3>
+                    </div>
+                    <Divider />
+                    <div className="card-description">
+                      Sample app for VG. React/Redux/Express/Node/AntDesign. Works only in Google Chrome.
+                    </div>
+                    <Divider />
+                    <div>
+                      <Grid>
+                        <Grid.Row>
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={html5}
+                              />
+                            }
+                            content="HTML-5"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={css}
+                              />
+                            }
+                            content="CSS3"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={react}
+                              />
+                            }
+                            content="React"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={redux}
+                              />
+                            }
+                            content="Redux"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={express}
+                              />
+                            }
+                            content="Express"
+                          />
+                        </Grid.Row>
+                      </Grid>
+                    </div>
+                    <Divider />
+                    <div>
+                      <a href="https://nameless-temple-35957.herokuapp.com/">
+                        Live Site
+                      </a>
+                    </div>
+                  </Grid.Column>
+                </Grid.Row>
+              </Grid>
+              <Grid stackable columns={2} className="project-container">
+                <Grid.Row>
+                  <Grid.Column>
+                    <Image
                       src={require("../projectimages/surveysoup.png")}
                       className="project-image"
                     />
