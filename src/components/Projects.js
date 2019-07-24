@@ -29,6 +29,68 @@ class Projects extends React.Component {
                 <Grid.Row>
                   <Grid.Column>
                     <Image
+                      src={require("../projectimages/gameoflife.png")}
+                      className="project-image"
+                    />
+                  </Grid.Column>
+                  <Grid.Column>
+                    <div>
+                      <h3 className="project-name">Conway's Game of Life</h3>
+                    </div>
+                    <Divider />
+                    <div className="card-description">
+                      Sample app for VG. React/AntDesign.
+                    </div>
+                    <Divider />
+                    <div>
+                      <Grid>
+                        <Grid.Row>
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={html5}
+                              />
+                            }
+                            content="HTML-5"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={css}
+                              />
+                            }
+                            content="CSS3"
+                          />
+                          <Popup
+                            trigger={
+                              <Image
+                                style={{ height: "8vh", padding: "2vh" }}
+                                src={react}
+                              />
+                            }
+                            content="React"
+                          />
+                        </Grid.Row>
+                      </Grid>
+                    </div>
+                    <Divider />
+                    <div>
+                      <a href="https://youthful-minsky-667d36.netlify.com/">
+                        Live Site
+                      </a>
+                      <a href="https://github.com/basculante/gameoflife">
+                        Github
+                      </a>
+                    </div>
+                  </Grid.Column>
+                </Grid.Row>
+              </Grid>
+              <Grid stackable columns={2} className="project-container">
+                <Grid.Row>
+                  <Grid.Column>
+                    <Image
                       src={require("../projectimages/textspeech.png")}
                       className="project-image"
                     />
@@ -39,7 +101,8 @@ class Projects extends React.Component {
                     </div>
                     <Divider />
                     <div className="card-description">
-                      Sample app for VG. React/Redux/Express/Node/AntDesign. Works only in Google Chrome.
+                      Sample app for VG. React/Redux/Express/Node/AntDesign.
+                      Works only in Google Chrome.
                     </div>
                     <Divider />
                     <div>
@@ -116,10 +179,12 @@ class Projects extends React.Component {
                     </div>
                     <Divider />
                     <div className="card-description">
-                      A survey web application to create, share, and visualize surveys. This app is built
-                      using React and Redux along with React-Vis to handle data visualization. The back-end
-                      server is using Express, MongoDB, and Mongoose along with Passport.js to handle
-                      user authentication and data. The app is styled using MaterializeCSS.
+                      A survey web application to create, share, and visualize
+                      surveys. This app is built using React and Redux along
+                      with React-Vis to handle data visualization. The back-end
+                      server is using Express, MongoDB, and Mongoose along with
+                      Passport.js to handle user authentication and data. The
+                      app is styled using MaterializeCSS.
                     </div>
                     <Divider />
                     <div>
